@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.hidden{
+    display: none;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+}
+
+canvas{
+    border: double rgb(0, 162, 255);
+    box-shadow: 0 0 50px rgb(0, 162, 255);
+    margin-top: 15%;
+}
+
+#title{
+    position: absolute;
+    left: 28%;
+    top: 0;
+    font-size: 100px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(0, 162, 255);
+    text-shadow: 0 0 60px #0084ff;
+}
